@@ -1,0 +1,174 @@
+/*!
+Theme Name: Harvest
+Description: Wordpress Theme for Fall
+Version: 2.0
+Template: kava
+Author: Karen Blundell
+Author URI: http://karenblundell.com
+Tags: harvest, fall, orange, two columns, fixed width, widget ready,left sidebar
+Changes: fixed sidebar to remove theme-switcher is now located in sidebar.php
+and fixed images in post
+*/
+
+.pagination .next, .pagination .prev {
+    color: #3b3d42 !important;
+}
+.pagination .next:hover, .pagination .prev:hover {
+    color: #dd3333 !important;
+}
+h3.entry-title {
+    margin: 0 0 44px 0;
+    padding: 0 0 10px 0;
+    font-size: 18px;
+    line-height: 1.2em;
+    border-bottom: 2px solid #dd3333;
+    color: #dd3333;
+}
+h3.entry-title:hover a{
+    color: #565656 !important;
+}
+h1.entry-title.h2-style {
+    margin: 0 0 44px 0;
+    padding: 0 0 10px 0;
+    font-size: 18px;
+    line-height: 1.2em;
+    border-bottom: 2px solid #dd3333;
+    color: #dd3333;
+}
+h1.entry-title.h2-style:hover {
+    color: #565656 !important;
+}
+.breadcrumbs_item {
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 18px;
+    font-size: 14px !important;
+}
+a.breadcrumbs_item_link.is-home {
+    color: #dd3333;
+}
+nav.navigation.post-navigation a, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #dd3333 !important;
+}
+.post-navigation .nav-links a:hover .post-title, .post-navigation .nav-links a:hover .nav-text{
+	color: #dd3333 !important;
+}
+p.logged-in-as a{
+	color: #dd3333;
+}
+p.logged-in-as a:hover{
+	color: #565656;
+}
+.comment-form .submit{
+	background-color: #252525 !important;
+}
+.comment-form .submit:hover, .wpcf7-submit:hover, .post-password-form label + input:hover {
+    color: #ffffff;
+    background-color: transparent !important;
+}
+.search.search-no-results .btn, .search.search-no-results button{
+	background-color: #252525;
+}
+.search.search-no-results .btn, .search.search-no-results button:hover{
+	background-color: #dd3333;
+}
+.error404 .btn, .error404 button{
+	background-color: #252525;
+}
+.error404 .btn:hover, .error404 button:hover{
+	background-color: #dd3333;
+}
+.search.search-results .btn, .search.search-results button{
+	background-color: #252525;
+}
+.search.search-results .btn:hover, .search.search-results button:hover{
+	background-color: #dd3333;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;
+}
+.section-first {
+    display: flex;
+}
+.box-f {
+    margin-right: 13px;
+}
+.box-s {
+    margin-right: 13px;
+}
+.page .page-title{
+	display:none;
+}
+
+.blog .breadcrambs_header{
+	z-index: -1 !important;
+}
+.blog .site-content__wrap.container {
+    background-color: #fff;
+    padding: 50px 30px;
+    margin-top: -85px;
+}
+.single .breadcrambs_header{
+	z-index: -1 !important;
+}
+.single .site-content__wrap.container {
+	 background-color: #fff;
+    padding: 50px 30px;
+    margin-top: -85px;
+}
+.box-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.name,.email,.phone {
+    width: 100%;
+}
+.email {
+    margin-left: 15px;
+}
+.phone {
+    margin-left: 15px;
+}
+.container-contact-us p {
+    display: flex;
+    justify-content: center;
+}
+.box-contacts {
+    margin-bottom: 25px;
+}
+aside#secondary {
+    margin-top: 75px;
+}
+aside#secondary .btn, button{
+    background-color: #252525 !important;
+}
+aside#secondary .btn:hover, button:hover{
+    background-color: #dd3333 !important;
+}
+aside#secondary a{
+    color: #1a1a1a !important;
+}
+aside#secondary a:hover{
+    color: #dd3333 !important;
+}
+@media(max-width: 768px){
+	.section-first {
+	    flex-direction: column;
+	}
+	.box-f {
+    	margin-right: 0;
+	}
+	.box-s {
+	    margin-right: 0;
+	}
+}
+
+.comment-form-gdpr {
+    margin: 10px 0!important;
+}
+
+.comment-form-gdpr input {
+    margin-right: 5px;
+}
